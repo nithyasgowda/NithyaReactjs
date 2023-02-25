@@ -1,0 +1,66 @@
+#calciframe{
+    padding: 10px;
+    height: 500px;
+    width: 320px;
+    border:15px solid black;
+    background-color: rgba(0, 0, 0, 0.714);
+    border-radius: 20px;
+    margin: auto;
+}
+
+#resultscreen{
+    height: 70px;
+    width: 300px;
+    border: 5px solid rgba(135, 234, 135, 0.485);
+    background-color: rgba(139, 236, 139, 0.485);
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+#clear{
+    font-size: 40px;
+    color:white;
+    height: 60px;
+    width: 60px;
+    border: 2px solid orange;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+
+input[type=button]{
+    font-size: 40px;
+    color:white;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: black;
+}
+ 
+#plus{
+    height:125px;
+    width:60px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 40px;
+    color: orange;
+}
+
+#zero{
+    height:60px;
+    width:135px;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#delete{
+    color: orange;
+    font-size: large;
+}
+
+#equals{
+    background-color: orange;
+    border-color: orange;
+}
