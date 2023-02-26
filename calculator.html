@@ -13,35 +13,41 @@
             <td colspan="4"><input type="text" id="resultscreen" disabled></td>
         </tr>
         <tr>
-            <td><input type="button" id="clear" value="C"></td>
-            <td><input type="button" value="/" style="color: orange;"></td>
-            <td><input type="button" value="*" style="color: orange; padding-top: 15px;" ></td>
-            <td><input type="button" value="-" style="color: orange;"></td>
+            <td><input type="button" id="clear" value="C" onclick="erase()"></td>
+            <td><input type="button" value="/" style="color: orange;" onclick="disp('/')"></td>
+            <td><input type="button" value="*" style="color: orange; padding-top: 15px;" onclick="disp('*')"></td>
+            <td><input type="button" value="-" style="color: orange;" onclick="disp('-')"></td>
         </tr>
         <tr>
-            <td><input type="button" value="1"></td>
-            <td><input type="button" value="2"></td>
-            <td><input type="button" value="3"></td>
-            <td rowspan="2"><input type="button"value="+" id="plus"></td>
+            <td><input type="button" value="1" onclick="disp('1')"></td>
+            <td><input type="button" value="2" onclick="disp('2')"></td>
+            <td><input type="button" value="3" onclick="disp('3')"></td>
+            <td rowspan="2"><input type="button" value="+" id="plus" onclick="disp('+')"></td>
         </tr>
         <tr>
-            <td><input type="button" value="4"></td>
-            <td><input type="button" value="5"></td>
-            <td><input type="button" value="6"></td>
+            <td><input type="button" value="4" onclick="disp('4')"></td>
+            <td><input type="button" value="5" onclick="disp('5')"></td>
+            <td><input type="button" value="6" onclick="disp('6')"></td>
         </tr>
         <tr>
-            <td><input type="button" value="7"></td>
-            <td><input type="button" value="8"></td>
-            <td><input type="button" value="9"></td>
-            <td><input type="button" value="DEL" id="delete"></td>
+            <td><input type="button" value="7" onclick="disp('7')"></td>
+            <td><input type="button" value="8" onclick="disp('8')"></td>
+            <td><input type="button" value="9" onclick="disp('9')"></td>
+            <td><input type="button" value="DEL" id="delete" ></td>
         </tr>
         <tr>
-            <td colspan="2"><input type="button" value="0" id="zero"></td>
-            <td><input type="button" value="." style="padding-bottom: 30px;"></td>
-            <td><input type="button" value="=" id="equals"></td>
+            <td colspan="2"><input type="button" value="0" id="zero" onclick="disp('0')"></td>
+            <td><input type="button" value="." style="padding-bottom: 30px;" onclick="disp('.')"></td>
+            <td><input type="button" value="=" id="equals" onclick="calculate()"></td>
         </tr>
 
     </table>
 
+
+
+
+
+
+    <script src="../JS/calculator.js"></script>
 </body>
 </html>
